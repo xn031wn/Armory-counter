@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3EFE0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main {
+    background-image: url(armory.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #1787af;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:dashed;
+    font-size: 30px;
+    padding:3%;
+    height: 650px;
+    width: 600px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+.main h1 {
+    box-shadow: #000000 2px 4px 4px 3px;
+    background-color: #fbf4de;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.main div p{
+    box-shadow: #000000 4px 4px 4px 3px;
+    background-color: #fbf4de;
+    border-radius: 17px;
+    color: black;
+    padding: 5px;
+    margin:50px 0;
+}
+
+#count {
+    font: 100x;
+    font-weight: 800;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
