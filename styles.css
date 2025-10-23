@@ -51,13 +51,19 @@ body {
 }
 
 #increment {
-  box-shadow: #000000 4px 4px 4px 3px;
-  background-color: #fbf4de;
-  border-radius: 17px;
+  box-shadow: #000000 2px 2px 40px 3px;
+  background-color: #21b1fa;
+  border-radius: 7px;
   color: black;
+  width: 300px;
+  border: none;
   padding: 15px;
   margin: 50px 0;
-  font: 100x;
+  font-size: 30px;
   font-weight: 800;
   font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#increment:active {
+  background-color: rgb(0, 195, 255);
 }

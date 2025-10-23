@@ -2,5 +2,15 @@ console.log("heyy");
 console.log("Hello world!");
 
 
-let visitCount = document.getElementById("count");
+let countDisplay = document.getElementById("count");
 
+
+let visitCount = 0
+console.log(visitCount);
+
+function increment() {
+
+    visitCount += 1;
+    countDisplay.innerText = visitCount;
+
+}
