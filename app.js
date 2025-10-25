@@ -2,13 +2,24 @@ console.log("heyy");
 console.log("Hello world!");
 
 
+//variables 
+let visitCount = 0;
+
+// selecting displays
 let countDisplay = document.getElementById("count");
 let previousCount = document.querySelector('.previous');
-console.log(previousCount)
 
+//selecting buttons for event listerners
 
-let visitCount = 0
-console.log(visitCount);
+let incrementBtn = document.getElementById("increment");
+let saveBtn = document.getElementById("saveBtn");
+
+//adding event listeners
+
+incrementBtn.addEventListener('click', increment);
+saveBtn.addEventListener("click", save);
+
+//creating functions that work when event listeners are called.
 
 function increment() {
 
@@ -19,5 +30,11 @@ function increment() {
 
 
 function save() {
-    console.log(visitCount)
+    let pevc =  visitCount +  " - ";
+    previousCount.textContent += pevc;
+    visitCount = 0
+    countDisplay.innerText = visitCount;
+    
+   
+    
 }
