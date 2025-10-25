@@ -14,3 +14,8 @@ function increment() {
     countDisplay.innerText = visitCount;
 
 }
+
+
+function save() {
+    console.log(visitCount)
+}
