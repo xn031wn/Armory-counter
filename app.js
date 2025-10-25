@@ -3,6 +3,8 @@ console.log("Hello world!");
 
 
 let countDisplay = document.getElementById("count");
+let previousCount = document.querySelector('.previous');
+console.log(previousCount)
 
 
 let visitCount = 0
